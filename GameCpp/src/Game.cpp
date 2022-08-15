@@ -25,6 +25,8 @@ bool Game::Save()
         std::ofstream SaveFile("../player/account.key");
 
         SaveFile << this->Data;
+
+        return true;
 //    }
 }
 
